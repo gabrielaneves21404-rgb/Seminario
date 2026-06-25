@@ -1,0 +1,39 @@
+# Dados (grandes e/ou confidenciais)
+data/raw/*.gpkg
+data/raw/*.csv
+data/raw/*.geojson
+data/processed/
+
+# Outputs (gerados pelos notebooks)
+outputs/
+*.gpkg
+*.csv
+*.png
+
+# Manter os ficheiros README de placeholder
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Conda
+.conda/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

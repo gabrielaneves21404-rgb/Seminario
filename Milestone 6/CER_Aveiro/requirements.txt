@@ -1,0 +1,28 @@
+# Geoespacial
+geopandas>=0.14.0
+pyproj>=3.6.0
+shapely>=2.0.0
+fiona>=1.9.0
+
+# Análise de dados
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Visualização
+matplotlib>=3.8.0
+contextily>=1.4.0
+
+# Econometria espacial
+libpysal>=4.9.0
+esda>=2.5.0
+spreg>=1.4.0
+
+# Optimização linear inteira mista
+pulp>=2.7.0
+
+# Dados OSM / redes de ruas
+osmnx>=1.9.0
+
+# Jupyter
+jupyterlab>=4.0.0
+ipykernel>=6.0.0

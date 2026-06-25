@@ -1,0 +1,30 @@
+name: aveiro-cer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  # Geoespacial
+  - geopandas>=0.14
+  - pyproj>=3.6
+  - shapely>=2.0
+  - fiona>=1.9
+  # Análise de dados
+  - pandas>=2.0
+  - numpy>=1.26
+  # Visualização
+  - matplotlib>=3.8
+  - contextily>=1.4
+  # Econometria espacial
+  - libpysal>=4.9
+  - esda>=2.5
+  - spreg>=1.4
+  # Optimização
+  - pip:
+    - pulp>=2.7
+  # Rede OSM
+  - osmnx>=1.9
+  # Jupyter
+  - jupyterlab>=4.0
+  - ipykernel
