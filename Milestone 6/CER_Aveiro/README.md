@@ -64,7 +64,8 @@ Os seguintes ficheiros de dados **não estão incluídos** por limitações de t
 | `VoronoiPTD_Areas_Servico_Rede.gpkg` | Áreas de serviço dos PTDs (Voronoi de rede) | E-Redes / OSMnx |
 | `producao_pv_cp7.gpkg` | Output do NB04 — polígonos CP7 com produção PV | Gerado pelo notebook 04 |
 
-> **Nota:** Os dados da E-Redes são confidenciais. Para reproduzir com dados sintéticos, consultar `docs/metodologia.md`.
+> **Nota:** Devido a limitação de tamanho, os ficheiros `edificios_aveiro.gpkg` e `serie_consumo_cp7_2024_2025_v2.csv` foram adicionados ao github através do release, estando disponíveis nesta secção através do link: https://github.com/gabrielaneves21404-rgb/Seminario/releases/tag/Dados_semin%C3%A1rio
+> 
 
 ---
 
